@@ -1,0 +1,29 @@
+nav {
+    position: fixed;
+    top: 0;
+    padding: 3rem 2rem;
+    width: 250px;
+    display: flex;
+    z-index: 33;
+    flex-direction: column;
+    background-color: var(--gold);
+    top:0 ;
+    bottom: 0;
+}
+
+.nav__toggle {
+    position: absolute;
+    border: 3px solid #fff;
+    padding: 0.5rem;
+    font-size: 3rem;
+    border-radius: 9px;
+    color: #fff;
+    cursor: pointer;
+    /* display: none; */
+    right: calc(-70px + -2rem);
+}
+
+nav a {
+    margin-top: 2rem;
+
+}
